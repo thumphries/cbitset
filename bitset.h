@@ -41,8 +41,6 @@ int bitset_clear(bitset *bs, unsigned int bit);
 
 int bitset_toggle(bitset *bs, unsigned int bit);
 
-int bitset_find_unset(bitset *bs, unsigned int *bit);
-
 /*
     Here are some usage examples. To declare an ``array'' of 47 bits:
      
